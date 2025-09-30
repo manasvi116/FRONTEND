@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Ticket Booking Simulation</title>
+</head>
+<body>
+  <h2>Ticket Booking Progress:</h2>
+  <div id="output"></div>
+
+  <script>
+    const printMessage = (msg) => {
+      const div = document.getElementById("output");
+      const p = document.createElement("p");
+      p.textContent = msg;
+      div.appendChild(p);
+    };
+
+    const bookTicket = () => {
+      printMessage("welcome!");
+      setTimeout(() => {
+        printMessage("login successfully");
+        setTimeout(() => {
+          printMessage("seat has been selected successfully");
+          setTimeout(() => {
+            printMessage("your seat has been confirmed!");
+            setTimeout(() => {
+              printMessage("payment has been done");
+              setTimeout(() => {
+                printMessage("ticket has been issued");
+                printMessage("thank you for visiting the site");
+              }, 3000);
+            }, 4000);
+          }, 3000);
+        }, 2000);
+      }, 3000);
+    }; -->
+<!-- 
+    // call function
+    bookTicket();
+  </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Booking Simulation</title>
+</head>
+<body>
+  <h2>Ticket Booking Progress:</h2>
+  <div id="output"></div>
+
+  <!-- Link external JS file -->
+  <script src="promise.js"></script>
+</body>
+</html>
