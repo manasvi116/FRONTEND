@@ -47,5 +47,11 @@ const mapData = data.map((ese) =>ese.productname);
 console.log(mapData);
 
 const cheapProducts = data.filter(product => product.PRICE <= 600);
-
 console.log(cheapProducts);
+
+const selectedColor = data.filter(product => 
+  product.color.toUpperCase().includes("BLACK")
+);
+
+console.log(selectedColor);
+
